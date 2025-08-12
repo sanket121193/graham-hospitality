@@ -11,7 +11,7 @@ export const BookingCard = () => {
       <CardContent className="p-6">
         <div className="mb-6">
           <div className="text-xl font-bold text-foreground mb-3">
-            Book Your Stay
+            Graham Hospitality - Dadu Bharne Heritage Home
           </div>
           <div className="flex items-center gap-1 text-sm">
             <span className="font-medium">4.96</span>

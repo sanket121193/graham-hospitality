@@ -16,7 +16,7 @@ export const PropertyHeader = () => {
         </div>
         
         <h1 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-          Stunning Modern Villa with Pool
+          Graham Hospitality - Dadu Bharne Heritage Home
         </h1>
         
         <div className="flex items-center gap-6 text-muted-foreground mb-4">
