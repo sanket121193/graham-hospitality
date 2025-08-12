@@ -44,16 +44,6 @@ export const PropertyHeader = () => {
         <Button variant="outline" size="icon" className="rounded-full">
           <Heart className="h-4 w-4" />
         </Button>
-        
-        <div className="text-right">
-          <div className="text-2xl font-bold text-foreground">
-            $450
-            <span className="text-base font-normal text-muted-foreground"> / night</span>
-          </div>
-          <div className="text-sm text-muted-foreground">
-            $2,700 total
-          </div>
-        </div>
       </div>
     </div>
   );

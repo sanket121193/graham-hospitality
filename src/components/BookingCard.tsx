@@ -10,8 +10,8 @@ export const BookingCard = () => {
     <Card className="sticky top-8 shadow-elegant border-0 bg-gradient-to-br from-card to-accent/30">
       <CardContent className="p-6">
         <div className="mb-6">
-          <div className="text-2xl font-bold text-foreground mb-1">
-            $450 <span className="text-base font-normal text-muted-foreground">/ night</span>
+          <div className="text-xl font-bold text-foreground mb-3">
+            Book Your Stay
           </div>
           <div className="flex items-center gap-1 text-sm">
             <span className="font-medium">4.96</span>
@@ -66,34 +66,12 @@ export const BookingCard = () => {
         </div>
 
         <Button className="w-full mb-4 bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary text-primary-foreground font-medium py-3 rounded-xl">
-          Reserve
+          Check Availability
         </Button>
 
-        <p className="text-center text-sm text-muted-foreground mb-4">
-          You won't be charged yet
+        <p className="text-center text-sm text-muted-foreground">
+          Contact host for pricing details
         </p>
-
-        <div className="space-y-3">
-          <div className="flex justify-between">
-            <span className="text-sm">$450 × 6 nights</span>
-            <span className="text-sm">$2,700</span>
-          </div>
-          <div className="flex justify-between">
-            <span className="text-sm">Cleaning fee</span>
-            <span className="text-sm">$75</span>
-          </div>
-          <div className="flex justify-between">
-            <span className="text-sm">Service fee</span>
-            <span className="text-sm">$150</span>
-          </div>
-          
-          <Separator />
-          
-          <div className="flex justify-between font-semibold">
-            <span>Total</span>
-            <span>$2,925</span>
-          </div>
-        </div>
       </CardContent>
     </Card>
   );
